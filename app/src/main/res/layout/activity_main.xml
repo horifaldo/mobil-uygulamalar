@@ -7,16 +7,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- Bu bölüme View ve ViewGroup XML kodları yazılır. -->
     <TextView
         android:id="@+id/MU_TextView_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Merhaba Mobil Uygulamalar"
-        android:textSize="30sp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent" />
+        android:text="Teknolojileri"
+        android:textSize="55sp"
+        android:padding="30dp"
+        android:textColor="#FF0000" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
